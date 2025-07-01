@@ -29,3 +29,16 @@ python roman_calculator_gui.py
 ```
 
 Use the buttons to enter Roman numerals and choose an operation. The result will be displayed in Roman numerals. The `C` button clears the display.
+
+## Windows Executable
+
+If you want a standalone `.exe` for Windows you can build one using
+[PyInstaller](https://pyinstaller.org/). After installing PyInstaller with
+`pip install pyinstaller`, run the following command from this directory:
+
+```
+pyinstaller --onefile --windowed roman_calculator_gui.py
+```
+
+The resulting executable will be placed in the `dist` folder and can be run on
+Windows without needing Python installed.
