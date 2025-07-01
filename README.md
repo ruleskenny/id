@@ -19,3 +19,13 @@ python roman_calculator.py X + V
 This will output `XV`. Division uses integer division, so any remainder is discarded.
 If the result is zero or negative, an error message is shown because Roman
 numerals do not represent such values.
+
+## Graphical Calculator
+
+A simple GUI application is provided using Tkinter. Launch it with:
+
+```
+python roman_calculator_gui.py
+```
+
+Use the buttons to enter Roman numerals and choose an operation. The result will be displayed in Roman numerals. The `C` button clears the display.
